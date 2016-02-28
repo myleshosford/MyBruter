@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp codebase="" href="launcher.jnlp">
+    <information>
+       <title>test</title>
+       <vendor>test</vendor>
+       <description>Swing Application - Hello 
+         World</description>
+       <description kind="short">Swing Application 
+         - Hello World</description>
+       <offline-allowed/>
+     </information>
+ 	 <security>
+    	<all-permissions/>
+    	<!-- all-permissions requires the jars be signed -->
+  	</security>
+     <resources>
+       <j2se version="1.6"/>
+       <jar href="MyBruter.jar"/>
+     </resources>
+     <application-desc main-class="Main"/>
+</jnlp>
